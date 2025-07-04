@@ -1,8 +1,6 @@
 services:
   - type: web
-    name: wind-proxy
-    env: php
+    name: php-docker-proxy
+    runtime: docker
     plan: free
-    buildCommand: ""
-    startCommand: ""
-    autoDeploy: true
+
